@@ -1,7 +1,7 @@
 cookie-wrapper.js
 =================
 
-A simple and powerful JavaScript lib for cookie management.
+A simple and powerful JavaScript lib for cookie management. And oh, it is tiny - 0.5 KB gzipped.
 
 Install:
 --------
