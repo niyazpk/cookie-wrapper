@@ -1,7 +1,7 @@
 cookie-wrapper.js
 =================
 
-A simple and powerful JavaScript lib for cookie management. And oh, it is tiny - 481 bytes gzipped.
+A simple and powerful JavaScript lib for cookie management. And oh, it is tiny - 470 bytes gzipped.
 
 Install:
 --------
@@ -20,7 +20,7 @@ API (Usage):
 
 `Cookie.clear(name)` - delete the cookie: `name`
 
-**JSON operaions:**
+**JSON operations:**
 
 `Cookie.hset(name, key, value)` - set value of the `key` in the cookie: `name` (cookie will be created if not already present)
 
