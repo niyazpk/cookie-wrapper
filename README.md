@@ -3,6 +3,13 @@ cookie-wrapper.js
 
 A simple and powerful JavaScript lib for cookie management.
 
+Install:
+--------
+
+Include the minified script in your html with the proper path:
+
+`<script src='path/to/cookie-wrapper.min.js'></script>`
+
 
 API (Usage):
 ------------
