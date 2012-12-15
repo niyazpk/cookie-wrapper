@@ -14,9 +14,9 @@ Include the minified script in your html with the proper path:
 API (Usage):
 ------------
 
-`Cookie.set(name, value)` - set value of the cookie: `name`
+`Cookie.set(name, value)` - set value of the cookie: `name`. (`value` can be a JSON object. No need to call JSON.stringify)
 
-`Cookie.get(name)` - get value of the cookie: `name`
+`Cookie.get(name)` - get value of the cookie: `name`. (No need to call JSON.parse if you expect `value` to be a JSON object)
 
 `Cookie.clear(name)` - delete the cookie: `name`
 
