@@ -4,7 +4,7 @@ this.Cookie = this.Cookie || {};
 
 Cookie = (function(){
 
-    function set(name, value, days, minutes) {
+    function set(name, value, seconds) {
 
         if(typeof value === 'object'){
             value = JSON.stringify(value);
@@ -13,11 +13,8 @@ Cookie = (function(){
         var date = new Date();
         var expires = '; expires=';
 
-        if (typeof minutes !== 'undefined') {
-            date.setTime(date.getTime() + (minutes * 60 * 1000));
-            expires += date.toGMTString();
-        } else if (typeof days !== 'undefined') {
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        if(typeof seconds !== 'undefined'){
+            date.setTime(date.getTime() + (seconds * 1000));
             expires += date.toGMTString();
         } else {
             expires = '';
